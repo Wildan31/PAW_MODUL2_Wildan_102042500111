@@ -1,0 +1,33 @@
+LATIHAN MODUL 2 - SHOWROOM EAD
+
+CARA MENGERJAKAN
+1. Setiap bagian yang harus diisi ditandai seperti ini:  ___3a___
+   - angka (3)  = nomor TODO
+   - huruf (a)  = urutan isian di TODO tersebut
+2. Penjelasan tiap isian ada di kotak komentar TODO tepat di atasnya:
+     // =========================================
+     // TODO 3 - ...
+     //   ___3a___ = penjelasan isian
+     // =========================================
+3. Ganti SELURUH tanda (termasuk garis bawahnya) dengan jawaban.
+   Contoh:  require '___1a___';   ->   require 'koneksi.php';
+   Tanda kutip yang sudah ada di sekitar isian JANGAN dihapus.
+4. Struktur kode tidak perlu diubah. Kerjakan berurutan:
+   koneksi.php -> index.php -> tambah.php -> detail.php -> edit.php -> hapus.php
+5. database.sql dan style.css sudah lengkap. Import database.sql lewat
+   phpMyAdmin sebelum mulai.
+
+TIPS
+- Cari isian yang belum dikerjakan: tekan Ctrl+F di VS Code, ketik ___
+- Nama database, tabel, kolom, dan panjang VARCHAR: lihat database.sql.
+- Nama class CSS: lihat style.css.
+- Nama file tujuan link: lihat daftar file di folder ini.
+
+UJI HASIL
+Buka http://localhost/latihan_showroom/
+Tambah: MBL-DEMO / Toyota Rush / Toyota / Hitam / SUV / 295000000.
+Cari "Rush", buka detail, edit warna jadi Putih, lalu hapus.
+Coba juga: kolom kosong, harga berisi huruf, dan kode yang sama.
+
+Jika muncul error "Undefined constant ___..." atau "Call to undefined
+function ___...", berarti masih ada isian yang belum dikerjakan.
